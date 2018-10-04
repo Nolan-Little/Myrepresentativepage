@@ -4,19 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/main.css">
   <title>Document</title>
 </head>
 <body>
   <article id = "congressperson" class = "congressperson">
+   
+    <!-- info card containing representative 
+      picture and basic info -->
+    
     <section class = "congressperson__info">
-
+      <figure class='congressperson__card'>
+        <img src="jimcooper.jpeg" alt="Formal heashot of representative Jim Cooper">
+        <figcaption>Rep. Jim Cooper</figcaption>
+      </figure>
+      <ul class=congressperson__facts>
+        <li class="congressperson__factlist">House representative 5th congressional district of Tennessee.</li>
+        <li class="congressperson__factlist">Democrat</li>
+        <li class="congressperson__factlist">Representative since 1983.(Excepting 1994-2003. Formerly rep. of 4th district, '83  -'84</li>
+        <li class="congressperson__factlist">Central leaning Ideology score</li>
+      </ul>
     </section>
+
+      <!-- list of committess the representative has served on -->
+      
     <section class = "congressperson__committees">
-
+      <ul>
+        <li class="congressperson__committee--links"><a href="https://www.govtrack.us/congress/committees/HSAS">House Committee on Armed Services</a></li>
+          <ul>
+            <li class="congressperson__committee--links">Ranking Member, Subcommittee on <a href="https://www.govtrack.us/congress/committees/HSAS/29">Strategic Forces</a></li>
+            <li class="congressperson__committee--links">Member, Subcommittee on <a href="https://www.govtrack.us/congress/committees/HSAS/26">Emerging Threats and Capabilities</a></li>
+            <li class="congressperson__committee--links">Member, Subcommittee on <a href="https://www.govtrack.us/congress/committees/HSAS/25">Tactical Air and Land Forces</a></li>
+          </ul>
+        <li class="congressperson__committee--links"><a href="https://www.govtrack.us/congress/committees/HSGO">House Committee on Oversight and Government Reform</a></li>
+          <ul>
+            <li class="congressperson__committee--links">Member, Subcommittee on <a href="https://www.govtrack.us/congress/committees/HSGO/27">Healthcare, Benefits, and Administrative Rules</a></li>
+          </ul>
+      </ul>
     </section>
-    <nav class = "congressperson__legislation">
-      <ul class = "congressperson--links congressperson__legislation">
+    
+    <!-- links to representative's past legislation -->
 
+    <nav class = "congressperson__legislation">
+      <ul class = "congressperson__links">
+        <li><a href="https://www.govtrack.us/congress/bills/115/hr5703">H.R. 5703: To provide for the conveyance by the Secretary of the Army of certain property located in Cheatham County, Tennessee.</a></li>
+        <li><a href="https://www.govtrack.us/congress/bills/115/hr5419">H.R. 5419: To allow the Chief of the Army Corps of Engineers to convey certain property to the City of Nashville, Tennessee.</a></li>
+        <li><a href="https://www.govtrack.us/congress/bills/115/hres800">H.Res. 800: Amending the Rules of the House of Representatives to require the House to replace the Speaker on the first day of the second session of a Congress if the most recent fiscal year ...</a></li>
+        <li><a href="https://www.govtrack.us/congress/bills/115/hr5369">H.R. 5369: Earmark Elimination Act of 2018</a></li>
+        <li><a href="https://www.govtrack.us/congress/bills/115/hr3675">H.R. 3675: Stop Pay for Members Act
+        </a></li>
       </ul>
     </nav>
 
